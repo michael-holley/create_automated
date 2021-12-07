@@ -1,3 +1,15 @@
+HOW TO USE THIS SCRIPT:
+These instuctions are for linux machines. Not sure how to make this work on windows since I haven't done this on windows. I will update the instructions once I know.
+
+1. Download the bash script
+2. Navigate to location of the bash script via terminal
+3. Type the following commands
+	chmod +x create
+	sudo cp /usr/bin
+4. Navigate to the location you want to create a repository
+5. Use your new command "create" to run the script.
+
+
 This is a project that I am going to build strictly to help with my workflow. As my workflow changes, this script will change as well.
 
 When I get ready to start a new project, I do the same things every time. I create a repository on my machine, I use git init, create a readme.md file and the source file that I am going
