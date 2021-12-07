@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#create your directory/repo that you will be working in then move into that dir
+read -p "Name your directory: " DIR
+mkdir $DIR
+cd $DIR
+
+#Initiate the repository
+git init
+
+#create readme.md and source file
+touch readme.md
+read -p "Write your simple readme: " README
+echo $README > readme.md
+read -p "Name your src file: " SRC
+touch $SRC
+
+#add files to staging area and send the first commit.
+git add .
+git commit -m "added readme and empty src file"
