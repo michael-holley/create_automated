@@ -5,8 +5,9 @@ read -p "Name your directory: " DIR
 mkdir $DIR
 cd $DIR
 
-#Initiate the repository
+#Initiate the repository and create main branch (Second command here can be commented out or modified to name branch what you choose.)
 git init
+git branch -M main
 
 #create readme.md and source file
 touch readme.md
