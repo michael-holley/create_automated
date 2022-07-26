@@ -3,7 +3,7 @@ These instuctions are for linux machines. Not sure how to make this work on wind
 
 1. Download the bash script
 2. Navigate to location of the bash script via terminal
-3. Type the following commands
+3. Type the following commands:
 	chmod +x create
 	sudo cp /usr/bin
 4. Navigate to the location you want to create a repository
